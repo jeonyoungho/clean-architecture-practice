@@ -15,7 +15,7 @@ import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @PersistenceAdapter
-class MemberPersistenceAdapterPersistence implements MemberSavePersistencePort, MembersReadPersistencePort {
+class MemberPersistenceAdapter implements MemberSavePersistencePort, MembersReadPersistencePort {
 
     private final MemberJpaEntityRepository memberJpaEntityRepository;
     private final MemberMapper memberMapper;
